@@ -1,0 +1,33 @@
+POST /register registerController
+POST /login loginController
+GET /logout logoutController
+
+GET /getUserName getUserNameController
+GET /getUserType getUserTypeController
+
+
+GET /getPosts getPostsController
+POST /setPost setPostController
+POST /deletePost deletePostController
+GET /postAttachment getPostAttachmentController
+
+GET /getArticles getArticlesController
+GET /getArticlesBrief getArticlesBriefController
+POST /getArticle getArticleController
+POST /setArticle setArticleController
+POST /deleteArticle deleteArticleController
+GET /articleAttachment getArticleAttachmentController
+
+GET /getLessons getLessonsController
+GET /getLessonsBrief getLessonsBriefController
+POST /getLesson getLessonController
+POST /setLesson setLessonController
+POST /deleteLesson deleteLessonController
+GET /lessonAttachment getLessonAttachmentController
+
+GET /getLicks getLicksController
+GET /getLicksBrief getLicksBriefController
+POST /getLick getLickController
+POST /setLick setLickController
+POST /deleteLick deleteLickController
+GET /lickAttachment getLickAttachmentController
